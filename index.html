@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anna Leite | Studio de Moda Feminina Premium</title>
+  <meta name="description" content="Explore a coleção cápsula da Anna Leite. Peças atemporais e sofisticadas em linho e seda pura. Vista o luxo sutil todos os dias.">
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.354.0/dist/umd/lucide.min.js"></script>
+  <script type="module" crossorigin src="/loja-anna-leite/assets/index-qbewcN6k.js"></script>
+  <link rel="stylesheet" crossorigin href="/loja-anna-leite/assets/index-C04iyFCS.css">
+</head>
+<body>
+
+  <!-- Shared SVG Gradients -->
+  <svg style="width:0; height:0; position:absolute;" aria-hidden="true" focusable="false">
+    <linearGradient id="insta-gradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fdf497" />
+      <stop offset="5%" stop-color="#fdf497" />
+      <stop offset="45%" stop-color="#fd5949" />
+      <stop offset="60%" stop-color="#d6249f" />
+      <stop offset="90%" stop-color="#285AEB" />
+    </linearGradient>
+  </svg>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    Frete grátis para todo o Brasil em compras acima de R$ 499
+  </div>
+
+  <!-- Header -->
+  <header id="main-header">
+    <div class="container header-container">
+      <button class="mobile-toggle icon-btn" id="menu-toggle" aria-label="Abrir menu">
+        <i data-lucide="menu"></i>
+      </button>
+
+      <nav class="nav-links" id="nav-menu">
+        <a href="#inicio" class="active">Início</a>
+        <a href="#colecoes">Coleções</a>
+        <a href="#sobre">O Studio</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <a href="#inicio" class="logo">
+        ANNA LEITE
+        <span>Studio</span>
+      </a>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="search-toggle" aria-label="Buscar produto">
+          <i data-lucide="search"></i>
+        </button>
+        <a href="https://www.instagram.com/annaleitebrandao2014/" target="_blank" class="icon-btn instagram-btn" aria-label="Acessar Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="instagram-icon" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.999 0zm-.08 1.44h.08c2.133 0 2.386.008 3.228.046.77.035 1.18.163 1.458.272.37.143.633.313.91.59.277.276.447.54.59.91.108.278.237.689.272 1.458.038.84.046 1.093.046 3.228s-.008 2.388-.046 3.228c-.035.77-.163 1.18-.272 1.458a2.3 2.3 0 0 1-.59.91c-.276.278-.54.448-.91.59-.278.108-.689.237-1.458.272-.84.038-1.093.046-3.228.046s-2.388-.008-3.228-.046c-.77-.035-1.18-.163-1.458-.272a2.3 2.3 0 0 1-.91-.59 2.3 2.3 0 0 1-.59-.91c-.108-.278-.237-.689-.272-1.458-.038-.84-.046-1.093-.046-3.228s.008-2.388.046-3.228c.035-.77.163-1.18.272-1.458a2.3 2.3 0 0 1 .59-.91c.278-.276.54-.447.91-.59.278-.108.689-.237 1.458-.272.84-.038 1.093-.046 3.228-.046zM8 3.885A4.115 4.115 0 1 0 12 8a4.12 4.12 0 0 0-4.115-4.115zM8 11.44a3.44 3.44 0 1 1 0-6.88 3.44 3.44 0 0 1 0 6.88zM11.903 3.3a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92z"/>
+          </svg>
+        </a>
+        <button class="icon-btn" id="cart-toggle" aria-label="Ver carrinho">
+          <i data-lucide="shopping-bag"></i>
+          <span class="cart-count" id="header-cart-count">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Slide-down Search Bar -->
+  <div class="search-bar-drawer" id="search-bar-drawer">
+    <div class="container search-drawer-container">
+      <input type="text" id="search-input" class="search-input" placeholder="O que você está procurando? (ex: Vestido, Linho, Blazer...)">
+      <button class="search-clear-btn" id="search-clear" aria-label="Limpar busca">
+        <i data-lucide="x" style="width: 20px; height: 20px;"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg" style="background-image: url('/loja-anna-leite/assets/hero-banner-DRkgJ_1y.png');"></div>
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-tag">Coleção Cápsula</span>
+        <h1>Essenciais<br><span>Atemporais</span></h1>
+        <p>Descubra a elegância sutil e a sofisticação do linho e da seda pura em nossa nova coleção exclusiva. Peças desenhadas para vestir você com fluidez e refinamento.</p>
+        <a href="#colecoes" class="btn btn-primary">
+          Ver Coleção <i data-lucide="arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Catalog Section -->
+  <section class="section reveal-element" id="colecoes">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-title">
+          <h2>A Coleção</h2>
+          <p>Design minimalista com modelagens impecáveis e tecidos nobres.</p>
+        </div>
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all">Tudo</button>
+          <button class="filter-btn" data-filter="blusas">Blusas</button>
+          <button class="filter-btn" data-filter="vestidos">Vestidos</button>
+          <button class="filter-btn" data-filter="conjuntos">Conjuntos</button>
+          <button class="filter-btn" data-filter="blazers">Blazers</button>
+        </div>
+      </div>
+
+      <div class="products-grid" id="products-container">
+        <!-- Products will be dynamically inserted here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- O Studio / Sobre Section -->
+  <section class="section reveal-element" id="sobre" style="background-color: var(--bg-secondary); border-top: 1px solid var(--border-color);">
+    <div class="container" style="display: flex; align-items: center; gap: 60px; flex-wrap: wrap;">
+      <div style="flex: 1; min-width: 320px;">
+        <span style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.3em; color: var(--primary); font-weight: 600; display: block; margin-bottom: 16px;">Nosso Manifesto</span>
+        <h2 style="font-family: var(--font-title); font-size: 36px; font-weight: 400; line-height: 1.2; margin-bottom: 24px; color: var(--text-main);">Luxo Silencioso & Design Autoral</h2>
+        <p style="color: var(--text-muted); font-size: 15px; margin-bottom: 20px;">Acreditamos que a verdadeira sofisticação não precisa gritar. No Studio Anna Leite, cada peça é criada com foco no caimento perfeito, costuras meticulosas e seleção rigorosa de fibras naturais.</p>
+        <p style="color: var(--text-muted); font-size: 15px; margin-bottom: 30px;">Vestir Anna Leite é expressar força através da sutileza. Criamos roupas que acompanham seu ritmo, do ambiente de negócios aos momentos de lazer, mantendo sempre a distinção.</p>
+        <a href="#colecoes" class="btn btn-outline">Conheça Nossas Peças</a>
+      </div>
+      <div style="flex: 1; min-width: 320px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+        <div style="border-radius: 8px; overflow: hidden; height: 320px; background-image: url('/loja-anna-leite/assets/vestido-seda-B7B9KFwe.png'); background-size: cover; background-position: center; box-shadow: var(--shadow-sm);"></div>
+        <div style="border-radius: 8px; overflow: hidden; height: 320px; margin-top: 30px; background-image: url('/loja-anna-leite/assets/blazer-alfaiataria-DU5DHNh1.png'); background-size: cover; background-position: center; box-shadow: var(--shadow-sm);"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instagram Shop Feed -->
+  <section class="section instashop reveal-element">
+    <div class="container">
+      <div class="section-header" style="justify-content: center; text-align: center; margin-bottom: 40px;">
+        <div class="section-title">
+          <h2>Instashop</h2>
+          <p>Inspire-se em nossa curadoria no Instagram <a href="https://www.instagram.com/annaleitebrandao2014/" target="_blank" style="color: var(--primary); font-weight: 600;">@annaleitebrandao2014</a></p>
+        </div>
+      </div>
+
+      <div class="instagram-grid">
+        <a href="https://www.instagram.com/annaleitebrandao2014/" target="_blank" class="instagram-card">
+          <img src="/loja-anna-leite/assets/hero-banner-DRkgJ_1y.png" alt="Instagram Post 1">
+          <div class="instagram-overlay">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="instagram-icon" viewBox="0 0 16 16" style="margin-bottom: 10px;">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.999 0zm-.08 1.44h.08c2.133 0 2.386.008 3.228.046.77.035 1.18.163 1.458.272.37.143.633.313.91.59.277.276.447.54.59.91.108.278.237.689.272 1.458.038.84.046 1.093.046 3.228s-.008 2.388-.046 3.228c-.035.77-.163 1.18-.272 1.458a2.3 2.3 0 0 1-.59.91c-.276.278-.54.448-.91.59-.278.108-.689.237-1.458.272-.84.038-1.093.046-3.228.046s-2.388-.008-3.228-.046c-.77-.035-1.18-.163-1.458-.272a2.3 2.3 0 0 1-.91-.59 2.3 2.3 0 0 1-.59-.91c-.108-.278-.237-.689-.272-1.458-.038-.84-.046-1.093-.046-3.228s.008-2.388.046-3.228c.035-.77.163-1.18.272-1.458a2.3 2.3 0 0 1 .59-.91c.278-.276.54-.447.91-.59.278-.108.689-.237 1.458-.272.84-.038 1.093-.046 3.228-.046zM8 3.885A4.115 4.115 0 1 0 12 8a4.12 4.12 0 0 0-4.115-4.115zM8 11.44a3.44 3.44 0 1 1 0-6.88 3.44 3.44 0 0 1 0 6.88zM11.903 3.3a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92z"/>
+            </svg>
+            <span>Ver no Instagram</span>
+          </div>
+        </a>
+        <a href="https://www.instagram.com/annaleitebrandao2014/" target="_blank" class="instagram-card">
+          <img src="/loja-anna-leite/assets/vestido-seda-B7B9KFwe.png" alt="Instagram Post 2">
+          <div class="instagram-overlay">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="instagram-icon" viewBox="0 0 16 16" style="margin-bottom: 10px;">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.999 0zm-.08 1.44h.08c2.133 0 2.386.008 3.228.046.77.035 1.18.163 1.458.272.37.143.633.313.91.59.277.276.447.54.59.91.108.278.237.689.272 1.458.038.84.046 1.093.046 3.228s-.008 2.388-.046 3.228c-.035.77-.163 1.18-.272 1.458a2.3 2.3 0 0 1-.59.91c-.276.278-.54.448-.91.59-.278.108-.689.237-1.458.272-.84.038-1.093.046-3.228.046s-2.388-.008-3.228-.046c-.77-.035-1.18-.163-1.458-.272a2.3 2.3 0 0 1-.91-.59 2.3 2.3 0 0 1-.59-.91c-.108-.278-.237-.689-.272-1.458-.038-.84-.046-1.093-.046-3.228s.008-2.388.046-3.228c.035-.77.163-1.18.272-1.458a2.3 2.3 0 0 1 .59-.91c.278-.276.54-.447.91-.59.278-.108.689-.237 1.458-.272.84-.038 1.093-.046 3.228-.046zM8 3.885A4.115 4.115 0 1 0 12 8a4.12 4.12 0 0 0-4.115-4.115zM8 11.44a3.44 3.44 0 1 1 0-6.88 3.44 3.44 0 0 1 0 6.88zM11.903 3.3a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92z"/>
+            </svg>
+            <span>Ver no Instagram</span>
+          </div>
+        </a>
+        <a href="https://www.instagram.com/annaleitebrandao2014/" target="_blank" class="instagram-card">
+          <img src="/loja-anna-leite/assets/conjunto-linho-DWO-WmTT.png" alt="Instagram Post 3">
+          <div class="instagram-overlay">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="instagram-icon" viewBox="0 0 16 16" style="margin-bottom: 10px;">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.999 0zm-.08 1.44h.08c2.133 0 2.386.008 3.228.046.77.035 1.18.163 1.458.272.37.143.633.313.91.59.277.276.447.54.59.91.108.278.237.689.272 1.458.038.84.046 1.093.046 3.228s-.008 2.388-.046 3.228c-.035.77-.163 1.18-.272 1.458a2.3 2.3 0 0 1-.59.91c-.276.278-.54.448-.91.59-.278.108-.689.237-1.458.272-.84.038-1.093.046-3.228.046s-2.388-.008-3.228-.046c-.77-.035-1.18-.163-1.458-.272a2.3 2.3 0 0 1-.91-.59 2.3 2.3 0 0 1-.59-.91c-.108-.278-.237-.689-.272-1.458-.038-.84-.046-1.093-.046-3.228s.008-2.388.046-3.228c.035-.77.163-1.18.272-1.458a2.3 2.3 0 0 1 .59-.91c.278-.276.54-.447.91-.59.278-.108.689-.237 1.458-.272.84-.038 1.093-.046 3.228-.046zM8 3.885A4.115 4.115 0 1 0 12 8a4.12 4.12 0 0 0-4.115-4.115zM8 11.44a3.44 3.44 0 1 1 0-6.88 3.44 3.44 0 0 1 0 6.88zM11.903 3.3a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92z"/>
+            </svg>
+            <span>Ver no Instagram</span>
+          </div>
+        </a>
+        <a href="https://www.instagram.com/annaleitebrandao2014/" target="_blank" class="instagram-card">
+          <img src="/loja-anna-leite/assets/blazer-alfaiataria-DU5DHNh1.png" alt="Instagram Post 4">
+          <div class="instagram-overlay">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="instagram-icon" viewBox="0 0 16 16" style="margin-bottom: 10px;">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.999 0zm-.08 1.44h.08c2.133 0 2.386.008 3.228.046.77.035 1.18.163 1.458.272.37.143.633.313.91.59.277.276.447.54.59.91.108.278.237.689.272 1.458.038.84.046 1.093.046 3.228s-.008 2.388-.046 3.228c-.035.77-.163 1.18-.272 1.458a2.3 2.3 0 0 1-.59.91c-.276.278-.54.448-.91.59-.278.108-.689.237-1.458.272-.84.038-1.093.046-3.228.046s-2.388-.008-3.228-.046c-.77-.035-1.18-.163-1.458-.272a2.3 2.3 0 0 1-.91-.59 2.3 2.3 0 0 1-.59-.91c-.108-.278-.237-.689-.272-1.458-.038-.84-.046-1.093-.046-3.228s.008-2.388.046-3.228c.035-.77.163-1.18.272-1.458a2.3 2.3 0 0 1 .59-.91c.278-.276.54-.447.91-.59.278-.108.689-.237 1.458-.272.84-.038 1.093-.046 3.228-.046zM8 3.885A4.115 4.115 0 1 0 12 8a4.12 4.12 0 0 0-4.115-4.115zM8 11.44a3.44 3.44 0 1 1 0-6.88 3.44 3.44 0 0 1 0 6.88zM11.903 3.3a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92z"/>
+            </svg>
+            <span>Ver no Instagram</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sliding Cart Sidebar -->
+  <aside class="cart-sidebar" id="cart-sidebar">
+    <div class="cart-header">
+      <h3>Sacola de Compras</h3>
+      <button class="close-btn" id="cart-close" aria-label="Fechar sacola">
+        <i data-lucide="x"></i>
+      </button>
+    </div>
+    <div class="cart-body" id="cart-items-container">
+      <!-- Dynamic cart items list or empty message -->
+    </div>
+    <div class="cart-footer">
+      <div class="cart-subtotal" id="discount-row" style="display: none; color: var(--error); font-size: 14px; margin-bottom: 8px;">
+        <span>Desconto (Cupom):</span>
+        <span id="cart-discount-value">- R$ 0,00</span>
+      </div>
+      <div class="cart-subtotal">
+        <span>Subtotal:</span>
+        <span id="cart-total-value">R$ 0,00</span>
+      </div>
+      <p>Parcelamento em até 6x sem juros no checkout.</p>
+      <div class="cart-coupon-container">
+        <div class="coupon-input-group">
+          <input type="text" id="coupon-code" class="coupon-input" placeholder="CUPOM (ex: ANNA10)" style="text-transform: uppercase;">
+          <button class="coupon-btn" id="apply-coupon">Aplicar</button>
+        </div>
+        <span id="coupon-feedback" style="font-size: 11px; margin-top: 4px; display: block; font-weight: 500;"></span>
+      </div>
+      <button class="btn btn-primary btn-full" id="checkout-trigger" style="margin-top: 15px;">
+        Finalizar Compra
+      </button>
+    </div>
+  </aside>
+
+  <!-- Product Quick View Modal -->
+  <div class="modal-overlay" id="product-modal">
+    <div class="modal-container" style="max-width: 900px;">
+      <button class="modal-close" id="product-modal-close" aria-label="Fechar detalhes">
+        <i data-lucide="x"></i>
+      </button>
+      <div class="product-detail-modal" id="product-detail-content">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive Checkout Modal -->
+  <div class="modal-overlay" id="checkout-modal">
+    <div class="modal-container checkout-modal">
+      <button class="modal-close" id="checkout-modal-close" aria-label="Fechar checkout">
+        <i data-lucide="x"></i>
+      </button>
+      
+      <div class="checkout-grid">
+        <!-- Info Form Side -->
+        <div class="checkout-info-side">
+          <h3 class="checkout-step-title"><i data-lucide="user"></i> Dados Pessoais</h3>
+          
+          <form id="checkout-form">
+            <div class="form-group">
+              <label for="cust-name">Nome Completo</label>
+              <input type="text" id="cust-name" class="form-control" placeholder="Ana Silva Leite" required>
+            </div>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cust-phone">WhatsApp / Telefone</label>
+                <input type="tel" id="cust-phone" class="form-control" placeholder="(11) 99999-9999" required>
+              </div>
+              <div class="form-group">
+                <label for="cust-cep">CEP</label>
+                <input type="text" id="cust-cep" class="form-control" placeholder="01001-000" maxlength="9" required>
+              </div>
+            </div>
+            
+            <div class="form-row">
+              <div class="form-group" style="grid-column: span 1.5;">
+                <label for="cust-address">Rua / Logradouro</label>
+                <input type="text" id="cust-address" class="form-control" placeholder="Av. Paulista" required>
+              </div>
+              <div class="form-group">
+                <label for="cust-number">Número e Comp.</label>
+                <input type="text" id="cust-number" class="form-control" placeholder="1000 - Apto 51" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cust-bairro">Bairro</label>
+                <input type="text" id="cust-bairro" class="form-control" placeholder="Bela Vista" required>
+              </div>
+              <div class="form-row" style="gap: 10px; margin-bottom: 0;">
+                <div class="form-group">
+                  <label for="cust-city">Cidade</label>
+                  <input type="text" id="cust-city" class="form-control" placeholder="São Paulo" required>
+                </div>
+                <div class="form-group">
+                  <label for="cust-state">UF</label>
+                  <input type="text" id="cust-state" class="form-control" placeholder="SP" maxlength="2" required>
+                </div>
+              </div>
+            </div>
+          </form>
+          
+          <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid var(--border-color);">
+            <div id="checkout-discount-row" style="display: none; justify-content: space-between; font-size: 13px; color: var(--error); margin-bottom: 8px; font-weight: 500;">
+              <span>Desconto (Cupom):</span>
+              <span id="checkout-discount-value">- R$ 0,00</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; font-weight: 600; font-size: 15px; margin-bottom: 8px;">
+              <span>Total da Compra:</span>
+              <span id="checkout-total-value">R$ 0,00</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; font-size: 12px; color: var(--text-muted);">
+              <span>Entrega estimada:</span>
+              <span>Sedex Express (Grátis)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Payment Side -->
+        <div class="checkout-payment-side">
+          <h3 class="checkout-step-title"><i data-lucide="credit-card"></i> Pagamento</h3>
+          
+          <div class="payment-tabs">
+            <button class="payment-tab active" data-tab="pix">
+              <i data-lucide="qr-code"></i>
+              <span>PIX</span>
+            </button>
+            <button class="payment-tab" data-tab="card">
+              <i data-lucide="credit-card"></i>
+              <span>Cartão</span>
+            </button>
+            <button class="payment-tab" data-tab="whatsapp">
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style="margin-bottom: 4px;">
+                 <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+               </svg>
+               <span>WhatsApp</span>
+             </button>
+          </div>
+
+          <!-- PIX Tab Content -->
+          <div class="payment-panel active" id="panel-pix">
+            <div class="pix-container">
+              <div class="pix-qr-code">
+                <!-- Styled simulated QR Code SVG -->
+                <svg viewBox="0 0 100 100" style="width: 100%; height: 100%;">
+                  <!-- Outer border and corner anchors -->
+                  <rect x="0" y="0" width="25" height="25" fill="#1C1A17" />
+                  <rect x="3" y="3" width="19" height="19" fill="#FFF" />
+                  <rect x="6" y="6" width="13" height="13" fill="#1C1A17" />
+                  
+                  <rect x="75" y="0" width="25" height="25" fill="#1C1A17" />
+                  <rect x="78" y="3" width="19" height="19" fill="#FFF" />
+                  <rect x="81" y="6" width="13" height="13" fill="#1C1A17" />
+                  
+                  <rect x="0" y="75" width="25" height="25" fill="#1C1A17" />
+                  <rect x="3" y="78" width="19" height="19" fill="#FFF" />
+                  <rect x="6" y="81" width="13" height="13" fill="#1C1A17" />
+                  
+                  <!-- Random blocks representing data -->
+                  <rect x="35" y="5" width="10" height="5" fill="#1C1A17" />
+                  <rect x="55" y="0" width="5" height="15" fill="#1C1A17" />
+                  <rect x="45" y="20" width="15" height="5" fill="#1C1A17" />
+                  <rect x="65" y="25" width="10" height="10" fill="#1C1A17" />
+                  
+                  <rect x="30" y="35" width="20" height="5" fill="#1C1A17" />
+                  <rect x="15" y="45" width="10" height="15" fill="#1C1A17" />
+                  <rect x="35" y="45" width="5" height="5" fill="#1C1A17" />
+                  <rect x="45" y="50" width="15" height="10" fill="#1C1A17" />
+                  
+                  <rect x="75" y="35" width="5" height="20" fill="#1C1A17" />
+                  <rect x="60" y="45" width="10" height="5" fill="#1C1A17" />
+                  <rect x="85" y="60" width="15" height="5" fill="#1C1A17" />
+                  <rect x="70" y="70" width="5" height="15" fill="#1C1A17" />
+                  
+                  <rect x="35" y="65" width="15" height="5" fill="#1C1A17" />
+                  <rect x="40" y="75" width="10" height="15" fill="#1C1A17" />
+                  <rect x="55" y="80" width="10" height="5" fill="#1C1A17" />
+                  <rect x="30" y="85" width="5" height="10" fill="#1C1A17" />
+                  
+                  <center-logo>
+                    <rect x="42" y="42" width="16" height="16" fill="#1C1A17" rx="3"/>
+                    <text x="50" y="52" fill="#BCA380" font-family="'Playfair Display', serif" font-size="10" font-weight="bold" text-anchor="middle">AL</text>
+                  </center-logo>
+                </svg>
+              </div>
+              <p class="pix-instructions">Escaneie o código com o app do seu banco ou utilize o botão abaixo para copiar a chave PIX.</p>
+              <button class="copy-pix-btn" id="copy-pix-key">
+                <i data-lucide="copy"></i> Copiar Chave PIX
+              </button>
+            </div>
+            <button class="btn btn-primary btn-full" style="margin-top: auto;" id="confirm-pix-payment">
+              Confirmar Pagamento
+            </button>
+          </div>
+
+          <!-- Credit Card Tab Content -->
+          <div class="payment-panel" id="panel-card">
+            <!-- 3D Credit Card Preview -->
+            <div class="card-preview-container">
+              <div class="credit-card-3d" id="credit-card-view">
+                <!-- Card Front -->
+                <div class="card-face front">
+                  <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="card-chip"></div>
+                    <div class="card-brand">ANNA LEITE</div>
+                  </div>
+                  <div class="card-number-display" id="card-num-preview">•••• •••• •••• ••••</div>
+                  <div class="card-meta-row">
+                    <div class="card-meta-block">
+                      <label>Titular</label>
+                      <span id="card-name-preview">NOME DO TITULAR</span>
+                    </div>
+                    <div class="card-meta-block" style="text-align: right;">
+                      <label>Validade</label>
+                      <span id="card-exp-preview">MM/AA</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card Back -->
+                <div class="card-face back">
+                  <div class="card-magnetic-strip"></div>
+                  <div style="padding: 0 10px; margin-top: 15px; display: flex; align-items: center; justify-content: space-between;">
+                    <div class="card-signature-bar">ANNA LEITE</div>
+                    <div style="background-color: #FFF; padding: 4px 10px; border-radius: 4px;">
+                      <span class="card-cvv-display" id="card-cvv-preview">•••</span>
+                    </div>
+                  </div>
+                  <div style="font-size: 8px; text-align: center; color: rgba(255, 255, 255, 0.4); margin-top: 20px;">
+                    Assinatura autorizada • Studio Anna Leite Premium
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card Inputs -->
+            <form id="card-inputs-form">
+              <div class="form-group">
+                <label for="card-number">Número do Cartão</label>
+                <input type="text" id="card-number" class="form-control" placeholder="0000 0000 0000 0000" maxlength="19">
+              </div>
+              <div class="form-group">
+                <label for="card-name">Nome Impresso no Cartão</label>
+                <input type="text" id="card-name" class="form-control" placeholder="ANA S LEITE">
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="card-expiry">Validade</label>
+                  <input type="text" id="card-expiry" class="form-control" placeholder="MM/AA" maxlength="5">
+                </div>
+                <div class="form-group">
+                  <label for="card-cvv">CVV</label>
+                  <input type="text" id="card-cvv" class="form-control" placeholder="123" maxlength="4">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="card-installments">Opções de Parcelamento</label>
+                <select id="card-installments" class="form-control">
+                  <!-- Dynamic installments populated by app.js -->
+                </select>
+              </div>
+            </form>
+            
+            <button class="btn btn-primary btn-full" style="margin-top: auto;" id="confirm-card-payment">
+              Pagar com Cartão
+            </button>
+          </div>
+
+          <!-- WhatsApp Tab Content -->
+          <div class="payment-panel" id="panel-whatsapp">
+            <div class="whatsapp-panel-container">
+              <div class="whatsapp-icon-wrapper" style="background-color: rgba(37, 211, 102, 0.1); color: #25D366;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                </svg>
+              </div>
+              <h4>Finalizar pelo WhatsApp</h4>
+              <p>Você será redirecionada para o nosso atendimento exclusivo com o resumo da sua sacola. Uma consultora finalizará o seu pedido e o seu pagamento por lá.</p>
+            <button class="btn btn-primary btn-full" style="margin-top: auto; background-color: var(--success); border-color: var(--success);" id="send-whatsapp-order">
+              Enviar Pedido no WhatsApp <i data-lucide="arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Checkout Success Panel -->
+      <div class="checkout-success" id="checkout-success" style="display: none; padding: 40px 24px; text-align: center; max-width: 600px; margin: 0 auto;">
+        <div style="background-color: rgba(76, 106, 80, 0.1); color: var(--success); width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 32px; margin: 0 auto 20px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        </div>
+        <h3 style="font-family: var(--font-title); font-size: 26px; font-weight: 500; margin-bottom: 12px; color: var(--text-main);">Pedido Confirmado!</h3>
+        <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 24px; line-height: 1.6;">
+          Obrigada por comprar no Studio Anna Leite, <strong id="success-client-name"></strong>!<br>
+          Seu pedido foi registrado e o código abaixo garante a autenticidade e segurança da sua compra.
+        </p>
+        
+        <!-- Order info box -->
+        <div style="background-color: var(--bg-secondary); border-radius: 8px; padding: 20px; margin-bottom: 24px; border: 1px solid var(--border-color); text-align: left;">
+          <div style="display: flex; justify-content: space-between; margin-bottom: 12px; border-bottom: 1px solid var(--border-color); padding-bottom: 12px;">
+            <span style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted);">Número do Pedido:</span>
+            <span id="success-order-number" style="font-family: monospace; font-size: 14px; font-weight: 700; color: var(--text-main);"></span>
+          </div>
+          <div style="display: flex; justify-content: space-between; margin-bottom: 12px; border-bottom: 1px solid var(--border-color); padding-bottom: 12px;">
+            <span style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted);">Código de Validação:</span>
+            <span id="success-validation-code" style="font-family: monospace; font-size: 14px; font-weight: 700; color: var(--primary-dark);"></span>
+          </div>
+          <div style="display: flex; justify-content: space-between; margin-bottom: 12px; border-bottom: 1px solid var(--border-color); padding-bottom: 12px;">
+            <span style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted);">Método de Pagamento:</span>
+            <span id="success-payment-method" style="font-size: 13px; font-weight: 500; color: var(--text-main);"></span>
+          </div>
+          <div style="display: flex; justify-content: space-between;">
+            <span style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted);">Total:</span>
+            <span id="success-total-value" style="font-size: 14px; font-weight: 700; color: var(--text-main);"></span>
+          </div>
+        </div>
+
+        <p style="font-size: 12px; color: var(--text-muted); margin-bottom: 24px; line-height: 1.5;">
+          Guarde estas informações para validação e para acompanhar a entrega. As informações do código também foram salvas no histórico de contato.
+        </p>
+
+        <button class="btn btn-primary" id="success-close-btn" style="padding: 10px 32px; font-size: 12px;">Continuar Comprando</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Feedback -->
+  <div class="toast-feedback" id="toast-notification">Chave PIX copiada com sucesso!</div>
+
+  <a href="https://wa.me/5561981662282?text=Ol%C3%A1%2C+gostaria+de+conhecer+a+nova+cole%C3%A7%C3%A3o+da+Anna+Leite%21" target="_blank" class="whatsapp-fab" aria-label="Fale conosco no WhatsApp" style="background-color: #25D366; color: #FFFFFF;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+    </svg>
+  </a>
+
+  <!-- Footer -->
+  <footer id="contato" class="reveal-element">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3>ANNA LEITE</h3>
+        <p>Studio de design autoral feminino. Peças feitas com delicadeza e acabamento de alta costura para mulheres contemporâneas.</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/annaleitebrandao2014/" target="_blank" class="social-btn instagram-btn" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="instagram-icon" viewBox="0 0 16 16">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.999 0zm-.08 1.44h.08c2.133 0 2.386.008 3.228.046.77.035 1.18.163 1.458.272.37.143.633.313.91.59.277.276.447.54.59.91.108.278.237.689.272 1.458.038.84.046 1.093.046 3.228s-.008 2.388-.046 3.228c-.035.77-.163 1.18-.272 1.458a2.3 2.3 0 0 1-.59.91c-.276.278-.54.448-.91.59-.278.108-.689.237-1.458.272-.84.038-1.093.046-3.228.046s-2.388-.008-3.228-.046c-.77-.035-1.18-.163-1.458-.272a2.3 2.3 0 0 1-.91-.59 2.3 2.3 0 0 1-.59-.91c-.108-.278-.237-.689-.272-1.458-.038-.84-.046-1.093-.046-3.228s.008-2.388.046-3.228c.035-.77.163-1.18.272-1.458a2.3 2.3 0 0 1 .59-.91c.278-.276.54-.447.91-.59.278-.108.689-.237 1.458-.272.84-.038 1.093-.046 3.228-.046zM8 3.885A4.115 4.115 0 1 0 12 8a4.12 4.12 0 0 0-4.115-4.115zM8 11.44a3.44 3.44 0 1 1 0-6.88 3.44 3.44 0 0 1 0 6.88zM11.903 3.3a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92z"/>
+            </svg>
+          </a>
+          <a href="https://wa.me/5561981662282?text=Ol%C3%A1%2C+gostaria+de+conhecer+a+nova+cole%C3%A7%C3%A3o+da+Anna+Leite%21" target="_blank" class="social-btn whatsapp-btn" aria-label="WhatsApp" style="color: #25D366;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+            </svg>
+          </a>
+          <a href="https://pinterest.com/" target="_blank" class="social-btn pinterest-btn" aria-label="Pinterest">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="pinterest-icon" viewBox="0 0 16 16">
+              <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Coleções</h4>
+        <ul class="footer-links">
+          <li><a href="#colecoes" data-category="all">Ver Tudo</a></li>
+          <li><a href="#colecoes" data-category="blusas">Blusas</a></li>
+          <li><a href="#colecoes" data-category="vestidos">Vestidos</a></li>
+          <li><a href="#colecoes" data-category="conjuntos">Conjuntos</a></li>
+          <li><a href="#colecoes" data-category="blazers">Blazers</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Studio</h4>
+        <ul class="footer-links">
+          <li><a href="#sobre">Nossa História</a></li>
+          <li><a href="#sobre">Manifesto</a></li>
+          <li><a href="#inicio">Sustentabilidade</a></li>
+          <li><a href="mailto:contato@annaleite.com.br">Imprensa</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Atendimento</h4>
+        <ul class="footer-links">
+          <li><a href="https://wa.me/5561981662282?text=Ol%C3%A1%21+Acessei+o+site+da+Anna+Leite+e+gostaria+de+ver+o+cat%C3%A1logo+de+produtos+e+conhecer+a+nova+cole%C3%A7%C3%A3o." target="_blank">WhatsApp Concierge</a></li>
+          <li><a href="mailto:contato@annaleite.com.br">Fale Conosco</a></li>
+          <li><a href="#inicio">Políticas de Troca</a></li>
+        </ul>
+        <h4 style="margin-top: 24px; margin-bottom: 12px;">Meios de Pagamento</h4>
+        <div class="footer-payment-badges">
+          <span class="payment-badge">PIX</span>
+          <span class="payment-badge">Visa</span>
+          <span class="payment-badge">Mastercard</span>
+          <span class="payment-badge">Elo</span>
+          <span class="payment-badge">Hipercard</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Studio Anna Leite Ltda. Todos os direitos reservados.</p>
+      <div class="footer-bottom-links">
+        <a href="politica-privacidade.html">Políticas de Privacidade</a>
+        <a href="termos-uso.html">Termos de Uso</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- App Data & Scripts -->
+
+  <!-- Size Guide Modal -->
+  <div class="modal-overlay" id="size-guide-modal">
+    <div class="modal-container size-guide-modal">
+      <button class="modal-close" id="size-guide-close" aria-label="Fechar guia de tamanhos">
+        <i data-lucide="x"></i>
+      </button>
+      <h3 style="font-family: var(--font-title); font-size: 24px; font-weight: 400; margin-bottom: 16px;">Guia de Tamanhos</h3>
+      <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 24px;">Confira a tabela de medidas corporais (em centímetros) para escolher o tamanho ideal para você.</p>
+      
+      <div class="size-table-container">
+        <table class="size-table">
+          <thead>
+            <tr>
+              <th>Tamanho</th>
+              <th>Busto (cm)</th>
+              <th>Cintura (cm)</th>
+              <th>Quadril (cm)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>P</strong> (36/38)</td>
+              <td>84 - 88</td>
+              <td>66 - 70</td>
+              <td>94 - 98</td>
+            </tr>
+            <tr>
+              <td><strong>M</strong> (40)</td>
+              <td>89 - 93</td>
+              <td>71 - 75</td>
+              <td>99 - 103</td>
+            </tr>
+            <tr>
+              <td><strong>G</strong> (42)</td>
+              <td>94 - 98</td>
+              <td>76 - 80</td>
+              <td>104 - 108</td>
+            </tr>
+            <tr>
+              <td><strong>GG</strong> (44)</td>
+              <td>99 - 104</td>
+              <td>81 - 86</td>
+              <td>109 - 114</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size: 11px; color: var(--text-muted); text-align: center; margin-top: 10px;">* As medidas podem variar levemente de acordo com a modelagem de cada tecido.</p>
+    </div>
+  </div>
+</body>
+</html>
