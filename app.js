@@ -1,6 +1,6 @@
 import products from './products.js';
 
-document.addEventListener("DOMContentLoaded", () => {
+function initApp() {
   // --- INICIALIZAÇÃO DE ÍCONES ---
   if (typeof lucide !== 'undefined') {
     lucide.createIcons();
@@ -999,4 +999,10 @@ document.addEventListener("DOMContentLoaded", () => {
   // --- INITIAL RENDERING ---
   renderCatalog();
   renderCart();
-});
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initApp);
+} else {
+  initApp();
+}
